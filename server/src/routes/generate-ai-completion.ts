@@ -6,13 +6,13 @@ import { openai } from '../lib/openai';
 
 export async function generateAICompletionRoute(app: FastifyInstance) {
   app.post('/ai/complete', async (request, reply) => {
-    const paramsSchema = z.object({
+    const bodySchema = z.object({
       videoId: z.string().uuid(),
       template: z.string(),
       temperature: z.number().min(0).max(1).default(0.5),
     });
 
-    const { videoId, template, temperature } = paramsSchema.parse(request.body);
+    const { videoId, template, temperature } = bodySchema.parse(request.body);
 
     const video = await prisma.video.findUniqueOrThrow({
       where: {
