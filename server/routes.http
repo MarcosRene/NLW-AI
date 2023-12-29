@@ -15,10 +15,23 @@ Content-Type: audio/mpeg
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
 
 ####
+
 # @name create-transcription
 POST http://localhost:3333/videos/18af3f59-af9e-47d0-a23d-4f9516b7ef5c/transcription
 Content-Type: application/json
 
 {
   "prompt": "bip sound effect"
+}
+
+####
+
+# @name generate-ai-completion
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+  "videoId": "18af3f59-af9e-47d0-a23d-4f9516b7ef5c"
+  temperature: 0.5,
+  template: "Gere um resumo sucinto da transcrição do vídeo informada a seguir: '''{transcription}'''"
 }
