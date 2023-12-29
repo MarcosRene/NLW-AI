@@ -1,16 +1,16 @@
-import { FileVideo, Github, Upload, Wand2 } from "lucide-react";
-import { Button } from "./components/ui/button";
-import { Separator } from "./components/ui/separator";
-import { Textarea } from "./components/ui/textarea";
-import { Label } from "./components/ui/label";
+import { FileVideo, Github, Upload, Wand2 } from 'lucide-react';
+import { Button } from './components/ui/button';
+import { Separator } from './components/ui/separator';
+import { Textarea } from './components/ui/textarea';
+import { Label } from './components/ui/label';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "./components/ui/select";
-import { Slider } from "./components/ui/slider";
+} from './components/ui/select';
+import { Slider } from './components/ui/slider';
 
 export function App() {
   return (
@@ -46,8 +46,8 @@ export function App() {
             />
           </div>
           <p className="text-sm text-muted-foreground">
-            Lembre-se: Você pode utilizar a variável{" "}
-            <code className="text-violet-400">{"{transcription}"}</code> no seu
+            Lembre-se: Você pode utilizar a variável{' '}
+            <code className="text-violet-400">{'{transcription}'}</code> no seu
             prompt para adicionar o conteúdo da transcrição do video
             selecionado.
           </p>
