@@ -7,6 +7,22 @@
   Upload.ai
 </h1>
 
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/MarcosRene/NLW-AI">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/MarcosRene/NLW-AI">
+
+  <a href="https://github.com/MarcosRene/NLW-AI/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MarcosRene/NLW-AI">
+  </a>
+
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-blue">
+
+   <a href="https://github.com/MarcosRene/NLW-AI/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/MarcosRene/NLW-AI?style=social">
+  </a>
+</p>
+
 <p>
   <img src=".github/assets/cover.png" alt="nlw-ai-cover" />
 </p>
@@ -46,7 +62,7 @@ Ferramentas utilizadas durante a contrução do projeto:
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/MarcosRene/nlw-ia
+$ git clone git@github.com:MarcosRene/NLW-IA.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd NLW-IA
